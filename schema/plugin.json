@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "jupyterlab-theme-KULeuven",
+  "description": "jupyterlab-theme-KULeuven settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
