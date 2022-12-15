@@ -11,7 +11,8 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuven'] #jp-main-content-panel {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuven']
+  #jp-main-content-panel {
   width: 100vw !important;
   height: 100vh !important;
   border: 0 !important;
@@ -19,11 +20,11 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuv
   margin: 0 !important;
   top: 0 !important;
   background-image: url('./KULeuven.svg'),
-  linear-gradient(#fff 91vh,#1d8db0 91vh);
+    linear-gradient(#fff 91vh,#1d8db0 91vh) ;
   background-position: right 11vw bottom 1.5vh, bottom;
   background-size: 15vh, 100%;
   background-repeat: no-repeat, no-repeat;
-  }
+}
 
 h1,
 h2,
@@ -46,40 +47,45 @@ h1 {
   font-size: 10vh;
   text-shadow: none;
 }
+
 h2 {
   font-size: 4vh;
   text-align: left;
   position: relative;
-  left: 2vw 
-  }
+  left: 2vw;
+}
+
 h3 {
   font-size: 3vh;
   text-align: left;
   position: relative;
-  left: 5vw 
-  }
+  left: 5vw;
+}
+
 h4 {
   font-size: 2vh;
   text-align: left;
   position: relative;
-  left: 8vw 
-  }
+  left: 8vw;
+}
+
 h5 {
   font-size: 3vh;
   top: 0;
   height: 9vh;
-  }
+}
+
 h6 {
   font-size: 4vh;
   top: 0;
   height: 9vh;
-  }
+}
 
-.jp-RenderedSVG Svg,
-.jp-RenderedImage Img {
+.jp-RenderedSVG svg,
+.jp-RenderedImage img {
   position: fixed;
   top: 10vh;
-  left: 0vw;
+  left: 0;
   width: 100vw;
   height: 80vh;
   object-fit: contain;
