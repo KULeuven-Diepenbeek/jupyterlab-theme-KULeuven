@@ -18,7 +18,8 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuv
   padding: 0 !important;
   margin: 0 !important;
   top: 0 !important;
-  background-image: url('./KULeuven.svg'), linear-gradient(#fff 91vh,#1d8db0 91vh);
+  background-image: url('./KULeuven.svg'),
+  linear-gradient(#fff 91vh,#1d8db0 91vh);
   background-position: right 11vw bottom 1.5vh, bottom;
   background-size: 15vh, 100%;
   background-repeat: no-repeat, no-repeat;
@@ -29,7 +30,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {color: #1d8db0;
+h6 {
+  color: #1d8db0;
   margin: 0 0 0.2vh;
   font-family: Ubuntu, sans-serif;
   font-weight: 600;
@@ -38,43 +40,43 @@ h6 {color: #1d8db0;
   text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word;
-  }  
+}
 
-h1 {                           /* for full-slide titles*/
-	font-size: 10vh;
-    text-shadow: none; 
-	}
-h2 {                           /* for TOC structure slides */
-	font-size: 4vh;
-	text-align: left;
-	position: relative;
-	left: 2vw 
-	}
-h3 {                          /* for TOC structure slides */
-	font-size: 3vh;
-	text-align: left;
-	position: relative;
-	left: 5vw 
-	}
-h4 {                           /* for TOC structure slides */
-	font-size: 2vh;
-	text-align: left;
-	position: relative;
-	left: 8vw 
-	}
-h5 {                           /* for 2 line slide titles */
-	font-size: 3vh;
-    top: 0vh;
-    height: 9vh;
-	}
-h6 {                           /* for 1 line slide titles */
-	font-size: 4vh;
-    top: 0vh;
-    height: 9vh;
-	}
+h1 {
+  font-size: 10vh;
+  text-shadow: none;
+}
+h2 {
+  font-size: 4vh;
+  text-align: left;
+  position: relative;
+  left: 2vw 
+  }
+h3 {
+  font-size: 3vh;
+  text-align: left;
+  position: relative;
+  left: 5vw 
+  }
+h4 {
+  font-size: 2vh;
+  text-align: left;
+  position: relative;
+  left: 8vw 
+  }
+h5 {
+  font-size: 3vh;
+  top: 0;
+  height: 9vh;
+  }
+h6 {
+  font-size: 4vh;
+  top: 0;
+  height: 9vh;
+  }
 
-.jp-RenderedSVG svg,
-.jp-RenderedImage img {
+.jp-RenderedSVG Svg,
+.jp-RenderedImage Img {
   position: fixed;
   top: 10vh;
   left: 0vw;
