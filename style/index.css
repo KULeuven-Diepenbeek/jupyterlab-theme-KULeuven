@@ -20,7 +20,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuv
   margin: 0 !important;
   top: 0 !important;
   background-image: url('./KULeuven.svg'),
-    linear-gradient(#fff 91vh,#1d8db0 91vh) ;
+    linear-gradient(#fff 91vh,#1d8db0 91vh);
   background-position: right 11vw bottom 1.5vh, bottom;
   background-size: 15vh, 100%;
   background-repeat: no-repeat, no-repeat;
@@ -81,8 +81,8 @@ h6 {
   height: 9vh;
 }
 
-.jp-RenderedSVG svg,
-.jp-RenderedImage img {
+jp-RenderedSVG svg,
+jp-RenderedImage img {
   position: fixed;
   top: 10vh;
   left: 0;
