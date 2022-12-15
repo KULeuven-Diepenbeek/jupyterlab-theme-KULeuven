@@ -8,19 +8,19 @@ import { IThemeManager } from '@jupyterlab/apputils';
 import { ISettingRegistry } from '@jupyterlab/settingregistry';
 
 /**
- * Initialization data for the jupyterlab-theme-KULeuven extension.
+ * Initialization data for the jupyterlab_theme_KULeuven extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab-theme-KULeuven:plugin',
+  id: 'jupyterlab_theme_KULeuven:plugin',
   autoStart: true,
   requires: [IThemeManager],
   optional: [ISettingRegistry],
   activate: (app: JupyterFrontEnd, manager: IThemeManager, settingRegistry: ISettingRegistry | null) => {
-    console.log('JupyterLab extension jupyterlab-theme-KULeuven is activated!');
-    const style = 'jupyterlab-theme-KULeuven/index.css';
+    console.log('JupyterLab extension jupyterlab_theme_KULeuven is activated!');
+    const style = 'jupyterlab_theme_KULeuven/index.css';
 
     manager.register({
-      name: 'jupyterlab-theme-KULeuven',
+      name: 'jupyterlab_theme_KULeuven',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
@@ -30,10 +30,10 @@ const plugin: JupyterFrontEndPlugin<void> = {
       settingRegistry
         .load(plugin.id)
         .then(settings => {
-          console.log('jupyterlab-theme-KULeuven settings loaded:', settings.composite);
+          console.log('jupyterlab_theme_KULeuven settings loaded:', settings.composite);
         })
         .catch(reason => {
-          console.error('Failed to load settings for jupyterlab-theme-KULeuven.', reason);
+          console.error('Failed to load settings for jupyterlab_theme_KULeuven.', reason);
         });
     }
   }

@@ -4,6 +4,6 @@ from ._version import __version__
 def _jupyter_labextension_paths():
     return [{
         "src": "labextension",
-        "dest": "jupyterlab-theme-KULeuven"
+        "dest": "jupyterlab_theme_KULeuven"
     }]
 

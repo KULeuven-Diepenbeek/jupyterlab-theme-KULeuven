@@ -1,6 +1,6 @@
 # jupyterlab_theme_KULeuven
 
-[![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/actions/workflows/build.yml)
 A theme for KULeuven jupyterlab-deck slides
 
 ## Requirements
@@ -70,7 +70,7 @@ pip uninstall jupyterlab_theme_KULeuven
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab-theme-KULeuven` within that folder.
+folder is located. Then you can remove the symlink named `jupyterlab_theme_KULeuven` within that folder.
 
 ### Testing the extension
 

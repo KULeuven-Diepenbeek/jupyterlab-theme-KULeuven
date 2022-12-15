@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab-theme-KULeuven",
+  "name": "jupyterlab_theme_KULeuven",
   "version": "0.1.0",
   "description": "A theme for KULeuven jupyterlab-deck slides",
   "keywords": [
@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven",
+  "homepage": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven",
   "bugs": {
-    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/issues"
+    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -26,7 +26,7 @@
   
   "repository": {
     "type": "git",
-    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven.git"
+    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
