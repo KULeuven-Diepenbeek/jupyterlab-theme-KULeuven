@@ -20,7 +20,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuv
   margin: 0 !important;
   top: 0 !important;
   background-image: url('./KULeuven.svg'),
-    linear-gradient(#fff 91vh, #1d8db0 91vh);
+    linear-gradient(#fff 91vh, var(--kuleuven-blue0) 91vh);
   background-position: right 11vw bottom 1.5vh, bottom;
   background-size: 15vh, 100%;
   background-repeat: no-repeat, no-repeat;
@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1d8db0;
+  color: var(--kuleuven-blue0);
   margin: 0 0 0.2vh;
   font-family: Ubuntu, sans-serif;
   font-weight: 600;
@@ -100,3 +100,4 @@ h6 {
   background-size: 94px 34px;
   background-repeat: no-repeat;
   background-position: center;
+}

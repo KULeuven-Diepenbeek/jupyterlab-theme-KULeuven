@@ -25,8 +25,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 */
 
 :root {
-  --KULeuven-blue0:            #1d8db0;
-  --KULeuven-blue1:            #002345;
+  --kuleuven-blue0: #1d8db0;
+  --kuleuven-blue1: #002345;
 
   /* Elevation
    *
