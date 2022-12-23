@@ -25,6 +25,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 */
 
 :root {
+  --KULeuven-blue0:            #1d8db0;
+  --KULeuven-blue1:            #002345;
+
   /* Elevation
    *
    * We style box-shadows using Material Design's idea of elevation. These particular numbers are taken from here:
