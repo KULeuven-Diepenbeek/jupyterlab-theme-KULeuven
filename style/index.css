@@ -81,8 +81,8 @@ h6 {
   height: 9vh;
 }
 
-#jp-RenderedSVG svg,
-#jp-RenderedImage img {
+.jp-RenderedSVG svg,
+.jp-RenderedImage img {
   position: fixed;
   top: 10vh;
   left: 0;
@@ -93,8 +93,9 @@ h6 {
 
 /* Replace the default JupyterLab Logo */
 #jp-MainLogo > svg {
-    visibility: hidden;
+  visibility: hidden;
 }
+
 #jp-MainLogo {
   background-image: url('./KULeuven.svg');
   background-size: 94px 34px;
