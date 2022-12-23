@@ -13,7 +13,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/naming-convention': [
-      'error',
+      'warn',
       {
         selector: 'interface',
         format: ['PascalCase'],
