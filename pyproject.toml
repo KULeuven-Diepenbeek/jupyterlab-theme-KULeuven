@@ -26,15 +26,6 @@ dependencies = [
 ]
 dynamic = ["version", "description", "authors", "urls", "keywords"]
 
-[project.optional-dependencies]
-test = [
-    "coverage",
-    "pytest",
-    "pytest-asyncio",
-    "pytest-cov",
-    "pytest-tornasync"
-]
-
 [tool.hatch.version]
 source = "nodejs"
 
