@@ -8,7 +8,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
 /**
  * Initialization data for the jupyterlab_theme_KULeuven extension.
  */
-const  extension: JupyterFrontEndPlugin<void> = {
+const extension: JupyterFrontEndPlugin<void> = {
   id: 'jupyterlab_theme_KULeuven',
   autoStart: true,
   requires: [IThemeManager],
@@ -25,4 +25,4 @@ const  extension: JupyterFrontEndPlugin<void> = {
   }
 };
 
-export default extension
+export default extension;
