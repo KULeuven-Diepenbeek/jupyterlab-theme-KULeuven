@@ -1,5 +1,5 @@
 {
-  "name": "jupyterlab_theme_KULeuven",
+  "name": "jupyterlab-theme-KULeuven",
   "version": "0.1.0",
   "description": "A theme for KULeuven jupyterlab-deck slides",
   "keywords": [
@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven",
+  "homepage": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven",
   "bugs": {
-    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/issues"
+    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -25,7 +25,7 @@
   
   "repository": {
     "type": "git",
-    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven.git"
+    "url": "https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
@@ -35,7 +35,7 @@
     "build:lib": "tsc",
     "clean": "jlpm clean:lib",
     "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
-    "clean:labextension": "rimraf jupyterlab_theme_KULeuven/labextension",
+    "clean:labextension": "rimraf jupyterlab-theme-KULeuven/labextension",
     "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
     "eslint": "eslint . --ext .ts,.tsx --fix",
     "eslint:check": "eslint . --ext .ts,.tsx",
@@ -67,7 +67,7 @@
   },
   "jupyterlab": { 
     "extension": true,
-    "outputDir": "jupyterlab_theme_KULeuven/labextension",
+    "outputDir": "jupyterlab-theme-KULeuven/labextension",
     "themePath": "style/index.css"
   }
 }

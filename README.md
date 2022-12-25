@@ -1,6 +1,6 @@
-# jupyterlab_theme_KULeuven
+# jupyterlab-theme-KULeuven
 
-[![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/actions/workflows/build.yml)
 A theme for KULeuven jupyterlab-deck slides
 
 ## Requirements
@@ -13,7 +13,7 @@ A theme for KULeuven jupyterlab-deck slides
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_theme_KULeuven
+pip install jupyterlab-theme-KULeuven
 ```
 
 ## Uninstall
@@ -21,5 +21,5 @@ pip install jupyterlab_theme_KULeuven
 To remove the extension, execute:
 
 ```bash
-pip uninstall jupyterlab_theme_KULeuven
+pip uninstall jupyterlab-theme-KULeuven
 ```

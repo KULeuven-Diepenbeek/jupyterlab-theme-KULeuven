@@ -1,13 +1,13 @@
 include LICENSE
 include README.md
 include pyproject.toml
-include jupyter-config/jupyterlab_theme_KULeuven.json
+include jupyter-config/jupyterlab-theme-KULeuven.json
 
 include package.json
 include install.json
 include ts*.json
 
-graft jupyterlab_theme_KULeuven/labextension
+graft jupyterlab-theme-KULeuven/labextension
 
 # Javascript files
 graft src

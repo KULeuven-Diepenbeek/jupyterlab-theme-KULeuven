@@ -11,7 +11,7 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab_theme_KULeuven']
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   #jp-main-content-panel {
   width: 100vw !important;
   height: 100vh !important;

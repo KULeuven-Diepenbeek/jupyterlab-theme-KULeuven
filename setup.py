@@ -10,7 +10,7 @@ import setuptools
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 # The name of the project
-name = "jupyterlab_theme_KULeuven"
+name = "jupyterlab-theme-KULeuven"
 
 # Get our version
 with open(os.path.join(HERE, 'package.json')) as f:
@@ -29,7 +29,7 @@ package_data_spec = {
     ]
 }
 
-labext_name = "jupyterlab_theme_KULeuven"
+labext_name = "jupyterlab-theme-KULeuven"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, lab_path, "**"),
@@ -60,7 +60,7 @@ with open("README.md", "r") as fh:
 setup_args = dict(
     name=name,
     version=version,
-    url="https://github.com/KULeuven-Diepenbeek/jupyterlab_theme_KULeuven",
+    url="https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven",
     author="Jan Genoe",
     description="A Jupyterlab theme for the KULeuven",
     long_description=long_description,
