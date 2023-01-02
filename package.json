@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@jupyterlab/application": "^3.5.2",
-	"@dethbeds/jupyterlab-deck": "^0.1.4"
+	"jupyterlab-deck": "^0.1.4"
   },
    "devDependencies": {
     "@jupyterlab/builder": "^3.0.0",
