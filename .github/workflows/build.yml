@@ -19,7 +19,7 @@ jobs:
       with:
        node-version: 16
     - name: Install Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
         architecture: 'x64'
@@ -43,7 +43,7 @@ jobs:
         pip uninstall -y "jupyterlab_theme_KULeuven" jupyterlab
 
     - name: Upload extension packages
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: extension-artifacts
         path: dist/jupyterlab_theme_KULeuven*
@@ -61,7 +61,7 @@ jobs:
       with:
        node-version: 16
     - name: Install Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
         architecture: 'x64'
