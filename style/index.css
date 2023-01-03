@@ -11,7 +11,7 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']{
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   #jp-main-content-panel {
     width: 100vw !important;
     height: 100vh !important;
@@ -25,11 +25,14 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     background-size: 15vh, 100%;
     background-repeat: no-repeat, no-repeat;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   .jp-NotebookPanel{
     height: 91vh !important;
+    justify-content: stretch;
   }  
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h1,
   h2,
   h3,
@@ -46,46 +49,55 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     text-shadow: none;
     word-wrap: break-word;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h1 {
     font-size: 10vh;
     text-shadow: none;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h2 {
     font-size: 4vh;
     text-align: left;
     position: relative;
     left: 2vw;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h3 {
     font-size: 3vh;
     text-align: left;
     position: relative;
     left: 5vw;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h4 {
     font-size: 2vh;
     text-align: left;
     position: relative;
     left: 8vw;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h5 {
     font-size: 3vh;
     top: 0;
     height: 9vh;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   h6 {
     font-size: 4vh;
     top: 0;
     height: 9vh;
   }
-
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   .jp-RenderedSVG svg,
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
   .jp-RenderedImage img {
     position: fixed;
     top: 10vh;
