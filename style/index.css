@@ -97,7 +97,6 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     height: 80vh;
     object-fit: contain;
   }
-}
 
 /* Replace the default JupyterLab Logo */
 #jp-MainLogo > svg {
