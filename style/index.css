@@ -32,13 +32,12 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     justify-content: stretch;
   }  
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h1,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h2,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h3,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h4,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h5,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h6 {
     color: var(--kuleuven-blue0);
     margin: 0 0 0.2vh;
     font-family: Ubuntu, sans-serif;
@@ -50,55 +49,47 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     word-wrap: break-word;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h1 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h1 {
     font-size: 10vh;
     text-shadow: none;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h2 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h2 {
     font-size: 4vh;
     text-align: left;
     position: relative;
     left: 2vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h3 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h3 {
     font-size: 3vh;
     text-align: left;
     position: relative;
     left: 5vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h4 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h4 {
     font-size: 2vh;
     text-align: left;
     position: relative;
     left: 8vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h5 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h5 {
     font-size: 3vh;
     top: 0;
     height: 9vh;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  h6 {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h6 {
     font-size: 4vh;
     top: 0;
     height: 9vh;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  .jp-RenderedSVG svg,
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedSVG svg,
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
-  .jp-RenderedImage img {
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .jp-RenderedImage img {
     position: fixed;
     top: 10vh;
     left: 0;
