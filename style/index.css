@@ -50,8 +50,13 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   }
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h1 {
-    font-size: 10vh;
-    text-shadow: none;
+    font-size: 11vh;
+		height: 20vh;
+		max-height: 85vh;
+		max-width: 95vw;
+		object-fit: contain;
+		text-align: center;
+		top: 20vh;
   }
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h2 {
@@ -77,26 +82,99 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h5 {
     font-size: 3vh;
+    text-align: center;
     top: 0;
     height: 9vh;
+    max-height: 9vh;
   }
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h6 {
     font-size: 4vh;
+    text-align: center;
     top: 0;
     height: 9vh;
+    max-height: 9vh;
   }
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedSVG svg,
-  
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .jp-RenderedImage img {
-    position: fixed;
-    top: 10vh;
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedImage img {
+    position: relative;
+    top: 10vh;  
     left: 0;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     object-fit: contain;
   }
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .BottomSlideReference {
+  position: fixed;
+  text-align: left;
+  font-size: 2vh;
+  left: 12vh;
+  height: 3vh;
+  bottom: 2vh;
+  color: #fff;
+  background-color: transparent; }
+  
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .endquote { 
+  position: fixed;
+  text-align: centre;
+  font-size: 5vh;
+  left: 5vh;
+  width: 70vw;
+  top: 25vh;
+  height: 6vh;
+  color: var(--kuleuven-blue0);
+  background-color: transparent; }
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .quoteauthor { 
+  position: fixed;
+  text-align: right;
+  font-size: 3vh;
+  right: 32vh;
+  height: 3vh;
+  bottom: 25vh;
+  color: var(--kuleuven-blue0);
+  background-color: transparent; }
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .MathJax_Display { font-size: 8vh; }   
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .date {
+  position: fixed;
+  top: 82vh;
+  height: 5 vh;
+  width: 100vw;
+  font-size: 2vh; 
+  }
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .location {
+  position: fixed;
+  top: 76vh;
+  height: 5 vh;
+  width: 100vw;
+  font-size: 2vh;
+   }
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .speaker {
+  position: fixed;
+  top: 70vh;
+  height: 5 vh;
+  width: 100vw;
+  font-size: 3vh;
+  text-transform: uppercase;
+    }
+
+body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .subtitle {
+  color: #fff;
+  position: fixed;
+  top: 45vh; 
+  height: 15vh;
+  width: 75vw;
+  font-size: 5vh;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word;}
+
 
 /* Replace the default JupyterLab Logo */
 #jp-MainLogo > svg {
