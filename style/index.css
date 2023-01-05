@@ -99,8 +99,8 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedSVG svg,
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedImage img {
-    position: static;
-    top: 0vh;  
+    position: absolute;
+    top: 10vh;  
     left: 2vw;
     width: 95vw;
     height: 75vh;
