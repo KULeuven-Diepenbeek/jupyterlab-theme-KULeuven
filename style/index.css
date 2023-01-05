@@ -108,8 +108,7 @@ body[data-jp-deck-mode='presenting'] .jp-RenderedImage img {
     object-fit: contain;
   }
 
-
-body[data-jp-deck-mode='presenting'] p {
+body[data-jp-deck-mode='presenting'] .jp-MarkdownOutput {
     font-size: 2vh;
     text-align: left;
     position: relative;
