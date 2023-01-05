@@ -53,6 +53,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     font-size: 11vh;
 		height: 20vh;
 		max-height: 85vh;
+    width: 90vw;
 		max-width: 95vw;
 		object-fit: contain;
 		text-align: center;
@@ -98,11 +99,12 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedSVG svg,
 body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedImage img {
-    position: relative;
-    top: 10vh;  
-    left: 0;
-    width: 100vw;
-    height: 70vh;
+    position: static;
+    top: 0vh;  
+    left: 2vw;
+    width: 95vw;
+    height: 75vh;
+    max-height: 75vh;
     object-fit: contain;
   }
   
