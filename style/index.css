@@ -11,7 +11,7 @@ pre {
   line-height: var(--jp-code-line-height);
 }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
+body[data-jp-deck-mode='presenting']
   #jp-main-content-panel {
     width: 100vw !important;
     height: 100vh !important;
@@ -26,18 +26,18 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     background-repeat: no-repeat, no-repeat;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven']
+body[data-jp-deck-mode='presenting']
   .jp-NotebookPanel{
     height: 91vh !important;
     justify-content: stretch;
   }  
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h1,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h2,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h3,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h4,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h5,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h6 {
+body[data-jp-deck-mode='presenting'] h1,
+body[data-jp-deck-mode='presenting'] h2,
+body[data-jp-deck-mode='presenting'] h3,
+body[data-jp-deck-mode='presenting'] h4,
+body[data-jp-deck-mode='presenting'] h5,
+body[data-jp-deck-mode='presenting'] h6 {
     color: var(--kuleuven-blue0);
     margin: 0 0 0.2vh;
     font-family: Ubuntu, sans-serif;
@@ -49,7 +49,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     word-wrap: break-word;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h1 {
+body[data-jp-deck-mode='presenting'] h1 {
     font-size: 11vh;
 		height: 20vh;
 		max-height: 85vh;
@@ -60,28 +60,28 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
 		top: 20vh;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h2 {
+body[data-jp-deck-mode='presenting'] h2 {
     font-size: 4vh;
     text-align: left;
     position: relative;
     left: 2vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h3 {
+body[data-jp-deck-mode='presenting'] h3 {
     font-size: 3vh;
     text-align: left;
     position: relative;
     left: 5vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h4 {
+body[data-jp-deck-mode='presenting'] h4 {
     font-size: 2vh;
     text-align: left;
     position: relative;
     left: 8vw;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h5 {
+body[data-jp-deck-mode='presenting'] h5 {
     font-size: 3vh;
     text-align: center;
     top: 0;
@@ -89,7 +89,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     max-height: 9vh;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] h6 {
+body[data-jp-deck-mode='presenting'] h6 {
     font-size: 4vh;
     text-align: center;
     top: 0;
@@ -97,10 +97,10 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     max-height: 9vh;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedSVG svg,
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'].jp-RenderedImage img {
-    position: absolute;
-    top: 10vh;  
+body[data-jp-deck-mode='presenting'] .jp-RenderedSVG svg,
+body[data-jp-deck-mode='presenting'] .jp-RenderedImage img {
+    position: relative;
+    top: 0vh;  
     left: 2vw;
     width: 95vw;
     height: 75vh;
@@ -108,7 +108,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
     object-fit: contain;
   }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .BottomSlideReference {
+body[data-jp-deck-mode='presenting'] .BottomSlideReference {
   position: fixed;
   text-align: left;
   font-size: 2vh;
@@ -118,7 +118,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   color: #fff;
   background-color: transparent; }
   
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .endquote { 
+body[data-jp-deck-mode='presenting'] .endquote { 
   position: fixed;
   text-align: centre;
   font-size: 5vh;
@@ -129,7 +129,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   color: var(--kuleuven-blue0);
   background-color: transparent; }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .quoteauthor { 
+body[data-jp-deck-mode='presenting'] .quoteauthor { 
   position: fixed;
   text-align: right;
   font-size: 3vh;
@@ -139,9 +139,9 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   color: var(--kuleuven-blue0);
   background-color: transparent; }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .MathJax_Display { font-size: 8vh; }   
+body[data-jp-deck-mode='presenting'] .MathJax_Display { font-size: 8vh; }   
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .date {
+body[data-jp-deck-mode='presenting'] .date {
   position: fixed;
   top: 82vh;
   height: 5 vh;
@@ -149,7 +149,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   font-size: 2vh; 
   }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .location {
+body[data-jp-deck-mode='presenting'] .location {
   position: fixed;
   top: 76vh;
   height: 5 vh;
@@ -157,7 +157,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   font-size: 2vh;
    }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .speaker {
+body[data-jp-deck-mode='presenting'] .speaker {
   position: fixed;
   top: 70vh;
   height: 5 vh;
@@ -166,7 +166,7 @@ body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuv
   text-transform: uppercase;
     }
 
-body[data-jp-deck-mode='presenting'][data-jp-theme-name='jupyterlab-theme-KULeuven'] .subtitle {
+body[data-jp-deck-mode='presenting'] .subtitle {
   color: #fff;
   position: fixed;
   top: 45vh; 
