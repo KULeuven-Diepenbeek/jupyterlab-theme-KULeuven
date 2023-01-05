@@ -107,6 +107,17 @@ body[data-jp-deck-mode='presenting'] .jp-RenderedImage img {
     max-height: 75vh;
     object-fit: contain;
   }
+
+
+body[data-jp-deck-mode='presenting'] p {
+    font-size: 2vh;
+    text-align: left;
+    position: relative;
+    width: 95vw;
+    max-width: 95vw;
+    left: 8vw;
+  }
+
   
 body[data-jp-deck-mode='presenting'] .BottomSlideReference {
   position: fixed;
@@ -139,7 +150,9 @@ body[data-jp-deck-mode='presenting'] .quoteauthor {
   color: var(--kuleuven-blue0);
   background-color: transparent; }
 
-body[data-jp-deck-mode='presenting'] .MathJax_Display { font-size: 8vh; }   
+body[data-jp-deck-mode='presenting'] .MathJax_Display {
+  font-size: 6vh;
+  max-width: 95vw;}   
 
 body[data-jp-deck-mode='presenting'] .date {
   position: fixed;
