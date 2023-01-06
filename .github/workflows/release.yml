@@ -2,11 +2,10 @@ name: Release
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   release-job:
-    if: github.event_name == 'release' && github.event.action == 'created'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
