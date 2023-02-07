@@ -30,7 +30,7 @@ jobs:
         pip uninstall -y "jupyterlab_theme_KULeuven" jupyterlab
         
     - name: Upload extension packages
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: extension-artifacts
         path: dist/jupyterlab_theme_KULeuven*
