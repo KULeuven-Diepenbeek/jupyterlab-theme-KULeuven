@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-theme-KULeuven",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "A theme for KULeuven jupyterlab-deck slides",
   "keywords": [
     "jupyter",
@@ -46,11 +46,10 @@
     "watch:labextension": "jupyter labextension watch ."
   },
   "dependencies": {
-    "@jupyterlab/application": "^3.5.2",
-	"@deathbeds/jupyterlab-deck": "^0.1.3"
+    "@jupyterlab/application": "^3.5.2|| ^4.0.0"
   },
    "devDependencies": {
-    "@jupyterlab/builder": "^3.0.0",
+    "@jupyterlab/builder": "^3.0.0|| ^4.0.0",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "eslint": "^7.5.0",

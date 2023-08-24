@@ -200,3 +200,11 @@ body[data-jp-deck-mode='presenting'] .subtitle {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.jp-ApplicationShell-header .jp-Toolbar-logo {
+  background-image: url('./KULeuven.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+}

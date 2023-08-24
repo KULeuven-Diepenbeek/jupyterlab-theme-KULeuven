@@ -1,12 +1,12 @@
 # jupyterlab-theme-KULeuven
 
 [![Github Actions Status](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/workflows/Build/badge.svg)](https://github.com/KULeuven-Diepenbeek/jupyterlab-theme-KULeuven/actions/workflows/build.yml)
-A theme for KULeuven jupyterlab-deck slides
+A jupyterlab theme for KULeuven.
+It provides also styles jupyterlab-deck slides, but it should also work without jupyterlab-deck.
 
 ## Requirements
 
 - JupyterLab >= 3.0
-- jupyterlab-deck
 
 ## Install
 
