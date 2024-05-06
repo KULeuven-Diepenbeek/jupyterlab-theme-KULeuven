@@ -9,6 +9,7 @@ node_modules/
 jupyterlab-theme-KULeuven/labextension
 # Version file is handled by hatchling
 jupyterlab-theme-KULeuven/_version.py
+.yarn
 
 # Integration tests
 ui-tests/test-results/
@@ -118,6 +119,3 @@ dmypy.json
 
 # OSX files
 .DS_Store
-
-GitStatus.md
-Reference_jupyterlab_Themes/

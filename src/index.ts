@@ -25,4 +25,16 @@ const extension: JupyterFrontEndPlugin<void> = {
   }
 };
 
-export default extension;
+
+/**
+ * Initialization of a simple metadata form plugin.
+ */
+const slides: JupyterFrontEndPlugin<void> = {
+  id: 'Jupyter_KULeuven_slides:slides',
+  autoStart: true,
+  activate: (app: JupyterFrontEnd) => {
+    console.log('Jupyter_KULeuven_slides metadata-form example activated');
+  }
+};
+
+export default [slides,extension];

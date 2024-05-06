@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "title": "Metadata Form for generating KULeuven Reveal.js slides",
+  "description": "Settings of the metadata form extension.",
+  "jupyter.lab.metadataforms": [
+    {
+      "id": "Jupyter_KULeuven_slides:slides",
+      "label": "Metadata for generating KULeuven Reveal.js slides",
+      "metadataSchema": {
+        "type": "object",
+        "properties": {
+          "/KULeuvenSlides/slide_title": {
+            "title": "Slide title",
+            "description": "Title will appear on top of the slide",
+            "type": "string",
+			"default": "",
+			"writeDefault": false
+          },
+          "/KULeuvenSlides/slide_ref": {
+            "title": "Slide Reference",
+            "description": "Slide Reference will appear at the bottom of the slide",
+            "type": "string",
+			"default": "",
+			"writeDefault": false
+          },          
+		  "/KULeuvenSlides/slide_code": {
+            "title": "Select the slide template",
+            "description": "Please use one of: title -structure -normal",
+            "type": "string",
+			"default": "",
+			"writeDefault": false
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}
