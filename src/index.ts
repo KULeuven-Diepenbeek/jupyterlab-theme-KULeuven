@@ -30,10 +30,10 @@ const extension: JupyterFrontEndPlugin<void> = {
  * Initialization of a simple metadata form plugin.
  */
 const slides: JupyterFrontEndPlugin<void> = {
-  id: 'Jupyter_KULeuven_slides:slides',
+  id: 'jupyterlab-theme-KULeuven:slides',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
-    console.log('Jupyter_KULeuven_slides metadata-form example activated');
+    console.log('jupyterlab-theme-KULeuven:slides metadata-form example activated');
   }
 };
 

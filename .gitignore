@@ -9,7 +9,7 @@ node_modules/
 jupyterlab-theme-KULeuven/labextension
 # Version file is handled by hatchling
 jupyterlab-theme-KULeuven/_version.py
-.yarn
+.yarn/
 
 # Integration tests
 ui-tests/test-results/

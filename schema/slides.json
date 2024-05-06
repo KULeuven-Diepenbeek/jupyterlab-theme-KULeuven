@@ -4,7 +4,7 @@
   "description": "Settings of the metadata form extension.",
   "jupyter.lab.metadataforms": [
     {
-      "id": "Jupyter_KULeuven_slides:slides",
+      "id": "jupyterlab-theme-KULeuven:slides",
       "label": "Metadata for generating KULeuven Reveal.js slides",
       "metadataSchema": {
         "type": "object",
